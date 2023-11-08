@@ -1,0 +1,23 @@
+name: twitter-emotion
+channels:
+  - pytorch
+  - nvidia
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - torchaudio
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - transformers
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - accelerate
