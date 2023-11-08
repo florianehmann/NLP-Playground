@@ -1,2 +1,5 @@
+# Jupyter
 .ipynb_checkpoints
-twitter-emotion-analysis/models
+
+# model weights and biases from the fine-tuning (model is available on Hugging Face)
+models
