@@ -15,11 +15,13 @@ To do this, we fine-tune the [DistilBERT](https://huggingface.co/distilbert-base
 
 ### Setting Up the Environment
 
-To use this project, first set up a conda environment using
+To use this project, first set up a conda environment. If your machine doesn't have a GPU, use
 
-    $ conda env create -f environment.yml
+    $ conda env create -f environment-cpu.yml
 
-This environment assumes you have NVIDIA GPU that can run CUDA 12.1.
+If your machine has an NVIDIA GPU that can run CUDA 12.1, use
+
+    $ conda env create -f environment-cuda12.1.yml
 
 ### Performing the Fine-Tuning
 
