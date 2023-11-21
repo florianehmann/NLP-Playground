@@ -3,3 +3,7 @@
 
 # model weights and biases from the fine-tuning (model is available on Hugging Face)
 models
+
+# WebApp
+venv
+.idea
