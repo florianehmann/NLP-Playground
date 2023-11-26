@@ -6,6 +6,7 @@ models
 
 # WebApp
 venv
+.env
 .idea
 .pytest_cache
 __pycache__
